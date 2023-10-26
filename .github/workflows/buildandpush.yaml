@@ -10,7 +10,7 @@ on:
       tag:
         description: "Tag for the image"
         required: true
-        type: string
+        type: number
     secrets:
       registry_username:
         description: "Username of Docker"
